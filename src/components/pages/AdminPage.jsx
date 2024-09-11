@@ -64,14 +64,6 @@ const AdminPage = () => {
     }
   }
 
-  //logout functionality 
-
-  const handleLogout=()=>{
-    alert("are you sure for Logout");
-   localStorage.removeItem("adminAuth");
-   window.location.reload()
-
-  }
 //handle change
   const handleSelectChange = (e) => {
     const selectedUserId = e.target.value;
@@ -85,7 +77,6 @@ const AdminPage = () => {
       <nav class="navbar navbar-expand-lg bg-body-tertiary">
         <div class="navbar__area ">
         <Link className='fs-1' to={"/"}>SBI Bank</Link>
-          <button to='/register' onClick={handleLogout} className='btn btn-primary'>Logout</button>
         </div>
       </nav>
 
