@@ -84,7 +84,7 @@ setBalance(data?.user?.MyBalance);
 
 <nav class="navbar navbar-expand-lg bg-body-tertiary">
         <div class="navbar__area ">
-        <Link className='fs-1' to={"/"}>SBI Bank</Link>
+        <Link className='fs-1' to={"/"}>Back</Link>
         </div>
       </nav>
 
