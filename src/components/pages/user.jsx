@@ -68,14 +68,6 @@ setBalance(data?.user?.MyBalance);
     //logout functionality 
 
 
-    const handleLogout=()=>{
-      alert("are you sure for Logout");
-     localStorage.removeItem("userAuth");
-     window.location.reload();
-  
-    }
-
-
     //handle select change 
 
     const handleSelectChange = (e) => {
@@ -93,8 +85,6 @@ setBalance(data?.user?.MyBalance);
 <nav class="navbar navbar-expand-lg bg-body-tertiary">
         <div class="navbar__area ">
         <Link className='fs-1' to={"/"}>SBI Bank</Link>
-
-          <button to='/register' onClick={handleLogout} className='btn btn-primary'>Logout</button>
         </div>
       </nav>
 
